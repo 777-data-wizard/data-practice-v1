@@ -1,6 +1,10 @@
 import pandas as pd
 
-data = {"A": [1, 2, 3], "B": [4, 5, 6]}
-df = pd.DataFrame(data)
+mydataset = {
+  'cars': ["BMW", "Volvo", "Ford"],
+  'passings': [3, 7, 2]
+}
 
-print(df)
+myvar = pd.DataFrame(mydataset)
+
+print(myvar)
