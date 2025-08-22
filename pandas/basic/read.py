@@ -8,3 +8,6 @@ print(df)
 
 df1 = pd.read_json('test.json')
 print(df1.head(1))
+print(df1.tail(2))
+print(df1.info())
+print("titanic db info : ", df.info())
