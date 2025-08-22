@@ -6,7 +6,8 @@ data = {
 }
 
 #load data into a DataFrame object:
-df = pd.DataFrame(data)
+df = pd.DataFrame(data, index = ["day1", "day2", "day3"])
 
 print(df) 
-print("second row :  ", df.loc[1], sep = "\n")
+print("second row :  ", df.loc["day1"], sep = "\n")
+print("second row :  ", df.loc[["day2", "day3"]], sep = "\n")
