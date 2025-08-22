@@ -9,3 +9,4 @@ data = {
 df = pd.DataFrame(data)
 
 print(df) 
+print("second row :  ", df.loc[1], sep = "\n")
