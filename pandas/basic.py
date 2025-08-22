@@ -1,6 +1,5 @@
 import pandas as pd
-a = [1, 7, 2, 10]
-myvar = pd.Series(a, index = ["a", "b", "c", "d"])
-print("myvar[0]: ", myvar[0])
-print("myvar['b']:", myvar['b'])
+
+calories = {"day1": 420, "day2": 380, "day3": 390}
+myvar = pd.Series(calories, index = ["day1", "day2"])
 print(myvar)
